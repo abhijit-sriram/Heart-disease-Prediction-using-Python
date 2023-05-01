@@ -4,7 +4,7 @@ The code is an implementation of logistic regression for predicting heart diseas
 
 The second section explores the data using visualizations and statistical analysis. The target variable is binary, with values 1 for patients with heart disease and 0 for patients without heart disease. The count of the target variable is plotted using seaborn countplot. Further, the percentage of patients having heart disease and not having heart disease are calculated and printed. The count of sex is plotted using seaborn countplot, and the percentage of female and male patients are calculated and printed. The data is grouped by the target variable and mean of each feature is calculated and printed. Further, the frequency of heart disease is plotted against age and sex, maximum heart rate is plotted against age, the frequency of heart disease is plotted against slope, FBS, and chest pain type.
 
-The last section creates dummy variables for categorical features like 'cp', 'thal', and 'slope'. The dummy variables are concatenated with the original dataset. The head of the new dataset is printed to verify the changes.
+The last section creates dummy variables for categorical features like 'cp', 'thal', and 'slope'. The dummy variables are concatenated with the original dataset. The head of the new dataset is printed to verify the changes. Below are some visualizations performed as part of this project:
 
 ![image](https://user-images.githubusercontent.com/130720035/235516512-49b008bb-6ea9-483a-84ae-f8215c2166d9.png)
 
